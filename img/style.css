@@ -1,0 +1,44 @@
+/* CSS Document */
+
+body
+{
+background:  url(tile.png) repeat;
+background-attachment: fixed;
+background-size: 22%;
+} 
+
+#header
+{
+  background:  url(logo2.png) center white no-repeat;
+  margin: 0px -8px -30px -8px;
+  
+  height: 150px;
+  box-shadow: 0px 5px 15px 5px rgba(64,64,65,0.5);
+}
+
+#header_shadow_top
+{
+  margin: 70px -8px 0px -8px;
+  
+  height: 0px;
+ box-shadow: 0px 5px 15px 5px rgba(64,64,65,1);
+}
+
+#page
+{
+  width: 900px;
+  height: 347px;
+  margin: 30px auto 10px auto;
+  padding: auto;
+  background:  url(text3.png) center no-repeat;
+}
+
+
+#footer
+{
+  width: 651px;
+  height: 187px;
+  margin-left: -20px;
+  margin-top: -120px;
+  background:  url(coming_soon.png) left no-repeat;
+}
